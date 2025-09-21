@@ -40,7 +40,7 @@ Both metrics are computed for varying numbers of users and resource block groups
 
 ## 🚀 How to Run
 Clone the repo:
-```bash
+``bash
 git clone https://github.com/NickVoulg02/LTE_5G_Downlink_Scheduling_Algorithms.git
 cd LTE_5G_Downlink_Scheduling_Algorithms
 
@@ -58,4 +58,4 @@ Outputs:
 📖 References
 MathWorks 5G Toolbox
 Simulation of 5G Networks using MATLAB (arXiv)
-Performance Analysis of Scheduling Algorithms in LTE Networks([https://www.mathworks.com/products/matlab.html](https://ijssst.info/Vol-20/No-2/paper17.pdf))
+Performance Analysis of Scheduling Algorithms in LTE Networks
