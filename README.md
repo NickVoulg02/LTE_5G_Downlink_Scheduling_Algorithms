@@ -1,1 +1,29 @@
-The goal of the project is to evaluate the operation of five schedulers that solve the above issue. For the downlink, the following schedulers are proposed:round robin, proportional fair, maximum throughput (they are already implemented), and maximumcarrier-to-interference, quality guaranteed, packet loss ratio, earliest deadline first, modified earliest deadline first - proportional fair, modified largest weighted delay first, opportunistic packet loss fair, and exponential proportional fair (not already implemented). The valuation will basically be done using as input the number of users, and with using as dependent variables (outputs) the throughput, delay, and fairness of the operation of the network. Graphs (scatter plots, bar plots) should be produced at the end, that capture the result of the evaluation. There is the freedom to choose and other input variables, linked to mobility patterns or scheduling parameters.
+# 📡 LTE/5G Downlink Scheduling Algorithms in MATLAB
+
+[![MATLAB](https://img.shields.io/badge/MATLAB-R2024b-blue)](https://www.mathworks.com/products/matlab.html)
+[![5G Toolbox](https://img.shields.io/badge/Toolbox-5G%20Toolbox-orange)](https://www.mathworks.com/products/5g.html)
+
+Implementation and evaluation of **LTE/5G downlink scheduling algorithms** using MATLAB and the 5G Toolbox.  
+The project explores trade-offs between **throughput** and **fairness** across different schedulers and traffic models.
+
+---
+
+## ✨ Features
+- ✅ Round Robin (RR)  
+- ✅ Proportional Fair (PF)  
+- ✅ Exponential Proportional Fair (EXP-PF, configurable β)  
+- ✅ Maximum Carrier-to-Interference (Max C/I)  
+- ✅ Packet Loss Ratio (PLR)  
+
+Each scheduler is implemented as a custom `nrScheduler` class.
+
+---
+
+## ⚙️ Setup
+- MATLAB **R2024b**  
+- [5G Toolbox](https://www.mathworks.com/help/5g/)  
+
+Clone the repo:
+```bash
+git clone https://github.com/NickVoulg02/LTE_5G_Downlink_Scheduling_Algorithms.git
+cd LTE_5G_Downlink_Scheduling_Algorithms
