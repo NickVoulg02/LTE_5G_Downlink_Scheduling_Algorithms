@@ -40,9 +40,10 @@ Both metrics are computed for varying numbers of users and resource block groups
 
 ## 🚀 How to Run
 Clone the repo:
-``bash
+```bash
 git clone https://github.com/NickVoulg02/LTE_5G_Downlink_Scheduling_Algorithms.git
 cd LTE_5G_Downlink_Scheduling_Algorithms
+```
 
 Outputs:
 - Average Throughput
@@ -56,6 +57,6 @@ Outputs:
 - PLR → Underperforms in Full Buffer but improves in VoIP-like traffic
 
 📖 References
-MathWorks 5G Toolbox
+- [MathWorks 5G Toolbox](https://www.mathworks.com/help/5g/)
 Simulation of 5G Networks using MATLAB (arXiv)
 Performance Analysis of Scheduling Algorithms in LTE Networks
