@@ -58,5 +58,5 @@ Outputs:
 
 📖 References
 - [MathWorks 5G Toolbox](https://www.mathworks.com/help/5g/)
-Simulation of 5G Networks using MATLAB (arXiv)
-Performance Analysis of Scheduling Algorithms in LTE Networks
+- [Simulation of 5G Networks using MATLAB (arXiv)](https://arxiv.org/pdf/2204.11369)
+- [Performance Analysis of Scheduling Algorithms in LTE Networks](https://ijssst.info/Vol-20/No-2/paper17.pdf)
