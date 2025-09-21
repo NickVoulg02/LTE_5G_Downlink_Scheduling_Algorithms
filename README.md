@@ -43,3 +43,19 @@ Clone the repo:
 ```bash
 git clone https://github.com/NickVoulg02/LTE_5G_Downlink_Scheduling_Algorithms.git
 cd LTE_5G_Downlink_Scheduling_Algorithms
+
+Outputs:
+- Average Throughput
+- Jain’s Fairness Index
+- Comparison plots across schedulers
+
+📊 Example Insights
+- RR → Fair but lower throughput
+- Max C/I → High throughput, low fairness
+- PF / EXP-PF → Balanced trade-offs
+- PLR → Underperforms in Full Buffer but improves in VoIP-like traffic
+
+📖 References
+MathWorks 5G Toolbox
+Simulation of 5G Networks using MATLAB (arXiv)
+Performance Analysis of Scheduling Algorithms in LTE Networks([https://www.mathworks.com/products/matlab.html](https://ijssst.info/Vol-20/No-2/paper17.pdf))
